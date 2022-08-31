@@ -65,6 +65,21 @@ nav > a:not(.logo) {
   font-size: 2.8em;
 }
 
+.left-side .hero-subtitle {
+  display: inline-flex;
+  align-items: center;
+  color: var(--grey-text);
+}
+
+.left-side .hero-subtitle .icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  margin-left: 12px;
+  background: url("./assets//img//chrome.png");
+  background-size: contain;
+}
+
 .left-side a {
   padding: 16px 12px;
   font-size: 24px;
