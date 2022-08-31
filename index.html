@@ -4,10 +4,115 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href=style.css" rel="styleshhet">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="./assets/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Blinqo</title>
   </head>
   <body>
-    <h1>Blinqo</h1>
+    <header>
+      <nav>
+        <a href="#" class="logo">
+          <img src="./assets/logo.svg" alt="logo" />
+          <span>blinqo</span>
+        </a>
+      </nav>
+      <div class="hero">
+        <div class="left-side">
+          <h1>Blur any data on the page, when sharing or recording a screen</h1>
+          <button>Try on this page</button>
+        </div>
+        <div class="hero-video-container">
+          <div class="osx">
+            <div class="dot red"></div>
+            <div class="dot amber"></div>
+            <div class="dot green"></div>
+          </div>
+          <video
+            class="hero-video"
+            src="./assets//video/hero_video.mp4"
+            autoplay
+            loop
+          ></video>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="features">
+        <div class="feature-item">
+          <div class="feature-item-wrapper">
+            <h2><i>Click</i> to blur</h2>
+            <p>One click to blur anything you want on the page</p>
+          </div>
+          <img src="./assets/img/manual_loupe.png" alt="click-feature" />
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-wrapper">
+            <h2>Blur <i>Area</i></h2>
+            <p>Draw blurred rectangle</p>
+          </div>
+          <img src="./assets/img/area_loupe.png" alt="area-feature" />
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-wrapper">
+            <h2>Blur <i>Text</i></h2>
+            <p>Select and blur texts, paragraphs or single words</p>
+          </div>
+          <img src="./assets/img/text_loupe.png" alt="text-feature" />
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-wrapper">
+            <h2>Blur <i>Inputs</i></h2>
+            <p>One click and all input fields are blurred</p>
+          </div>
+          <img src="./assets/img/inputs_loupe.png" alt="inputs-feature" />
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-wrapper">
+            <h2><i>Persist</i> blur</h2>
+            <p>
+              Toggle persist option before, during or after blurring and your
+              changes will be saved after reloading the page
+            </p>
+          </div>
+          <img src="./assets/img/persist_loupe.png" alt="persist-feature" />
+        </div>
+      </div>
+    </main>
+    <section class="pricing">
+      <h1 class="title">Get Blinqo</h1>
+      <div class="price">4.99</div>
+      <button class="buy">Get it now</button>
+    </section>
+    <footer></footer>
   </body>
 </html>
