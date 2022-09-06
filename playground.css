@@ -313,6 +313,9 @@ main {
 }
 
 .pricing {
-  margin: 0 0 148px;
   padding: 0;
+}
+
+footer {
+  margin: 32px 0 96px 0;
 }
