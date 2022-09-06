@@ -307,3 +307,14 @@ i {
     width: 100%;
   }
 }
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+footer a {
+  color: var(--grey-text);
+  margin: 0 12px;
+}
