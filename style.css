@@ -17,6 +17,7 @@ body {
 
 header,
 main,
+footer,
 section {
   margin: 0 128px;
 }
@@ -310,8 +311,9 @@ i {
 
 footer {
   display: flex;
-  justify-content: center;
-  margin: 32px 0;
+  justify-content: space-between;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 footer a {
