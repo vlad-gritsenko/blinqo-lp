@@ -280,6 +280,10 @@ i {
     align-items: center;
   }
 
+  .hero-subtitle {
+    margin-bottom: 16px;
+  }
+
   .left-side {
     margin: 0;
     max-width: none;
@@ -294,6 +298,22 @@ i {
   .hero-video {
     width: 100%;
     max-width: 700px;
+  }
+
+  footer,
+  .terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  footer div {
+    text-align: center;
+  }
+
+  .terms {
+    margin-top: 16px;
+    order: 2;
   }
 }
 

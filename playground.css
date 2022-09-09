@@ -319,3 +319,11 @@ main {
 footer {
   margin: 32px 0 96px 0;
 }
+
+@media screen and (max-width: 1165px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+}
